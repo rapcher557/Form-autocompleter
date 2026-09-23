@@ -1,0 +1,5 @@
+py -m pip install playwright
+
+# سورس به صورت دیفالت روی ChromeDriver اجرا میشود و روی سیستم شخصی
+# در صورتی استفاده کنید که روی سرور اجرا شود
+# python -m playwright install chromium
