@@ -1,8 +1,8 @@
 from playwright.sync_api import sync_playwright
 import random
 
-URL = "https://survey.porsline.ir/s/uat1D5u7"
-WAIT = 1.0
+URL = "YOUR_URL"
+WAIT = 1.0 # Wait Down
 
 def run(code):
     with sync_playwright() as p:
